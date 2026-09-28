@@ -1,0 +1,18 @@
+{
+  "scenarios": [
+    {
+      "name": "small_reservoir",
+      "total_capacity": 500000.0,
+      "initial_storage": 300000.0,
+      "dead_storage": 50000.0,
+      "daily_release_cap": 120000.0
+    },
+    {
+      "name": "large_reservoir",
+      "total_capacity": 2000000.0,
+      "initial_storage": 800000.0,
+      "dead_storage": 100000.0,
+      "daily_release_cap": 200000.0
+    }
+  ]
+}

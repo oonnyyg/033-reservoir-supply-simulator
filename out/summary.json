@@ -1,0 +1,95 @@
+{
+  "scenario_count": 2,
+  "scenarios": [
+    {
+      "balance_tolerance": 1e-06,
+      "categories": {
+        "domestic": {
+          "satisfaction_ratio": 1.0,
+          "shortage_days": 0,
+          "total_demand": 300000.0,
+          "total_shortage": 0.0,
+          "total_supply": 300000.0
+        },
+        "ecological": {
+          "satisfaction_ratio": 1.0,
+          "shortage_days": 0,
+          "total_demand": 150000.0,
+          "total_shortage": 0.0,
+          "total_supply": 150000.0
+        },
+        "irrigation": {
+          "satisfaction_ratio": 0.2,
+          "shortage_days": 5,
+          "total_demand": 750000.0,
+          "total_shortage": 600000.0,
+          "total_supply": 150000.0
+        }
+      },
+      "daily_csv": "daily_small_reservoir.csv",
+      "days": 5,
+      "final_storage": 75000.0,
+      "initial_storage": 300000.0,
+      "max_abs_balance_residual": 0.0,
+      "name": "small_reservoir",
+      "parameters": {
+        "daily_release_cap": 120000.0,
+        "dead_storage": 50000.0,
+        "initial_storage": 300000.0,
+        "total_capacity": 500000.0
+      },
+      "satisfaction_ratio": 0.5,
+      "total_demand": 1200000.0,
+      "total_evaporation": 45000.0,
+      "total_inflow": 420000.0,
+      "total_shortage": 600000.0,
+      "total_spill": 0.0,
+      "total_supply": 600000.0
+    },
+    {
+      "balance_tolerance": 1e-06,
+      "categories": {
+        "domestic": {
+          "satisfaction_ratio": 1.0,
+          "shortage_days": 0,
+          "total_demand": 300000.0,
+          "total_shortage": 0.0,
+          "total_supply": 300000.0
+        },
+        "ecological": {
+          "satisfaction_ratio": 1.0,
+          "shortage_days": 0,
+          "total_demand": 150000.0,
+          "total_shortage": 0.0,
+          "total_supply": 150000.0
+        },
+        "irrigation": {
+          "satisfaction_ratio": 0.7333333333333333,
+          "shortage_days": 5,
+          "total_demand": 750000.0,
+          "total_shortage": 200000.0,
+          "total_supply": 550000.0
+        }
+      },
+      "daily_csv": "daily_large_reservoir.csv",
+      "days": 5,
+      "final_storage": 175000.0,
+      "initial_storage": 800000.0,
+      "max_abs_balance_residual": 0.0,
+      "name": "large_reservoir",
+      "parameters": {
+        "daily_release_cap": 200000.0,
+        "dead_storage": 100000.0,
+        "initial_storage": 800000.0,
+        "total_capacity": 2000000.0
+      },
+      "satisfaction_ratio": 0.8333333333333334,
+      "total_demand": 1200000.0,
+      "total_evaporation": 45000.0,
+      "total_inflow": 420000.0,
+      "total_shortage": 200000.0,
+      "total_spill": 0.0,
+      "total_supply": 1000000.0
+    }
+  ]
+}
