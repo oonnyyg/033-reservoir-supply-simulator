@@ -1,0 +1,102 @@
+{
+  "scenarios": [
+    {
+      "scenario": "small_reservoir",
+      "days": 7,
+      "parameters": {
+        "total_capacity": 120000.0,
+        "initial_storage": 80000.0,
+        "reserve": 20000.0,
+        "max_release": 15000.0
+      },
+      "total_demand": {
+        "eco": 21000.0,
+        "domestic": 35000.0,
+        "irrigation": 49000.0,
+        "all": 105000.0
+      },
+      "total_supply": {
+        "eco": 21000.0,
+        "domestic": 35000.0,
+        "irrigation": 38000.0,
+        "all": 94000.0
+      },
+      "total_shortage": {
+        "eco": 0.0,
+        "domestic": 0.0,
+        "irrigation": 11000.0,
+        "all": 11000.0
+      },
+      "shortage_days": {
+        "eco": 0,
+        "domestic": 0,
+        "irrigation": 3,
+        "any": 3
+      },
+      "satisfaction_rate": {
+        "eco": 1.0,
+        "domestic": 1.0,
+        "irrigation": 0.7755102040816326,
+        "all": 0.8952380952380953
+      },
+      "water_budget": {
+        "storage_start": 80000.0,
+        "storage_end": 120000.0,
+        "inflow": 162000.0,
+        "evaporation_actual": 18000.0,
+        "supply": 94000.0,
+        "spill": 10000.0,
+        "balance_residual": 0.0
+      }
+    },
+    {
+      "scenario": "large_reservoir",
+      "days": 7,
+      "parameters": {
+        "total_capacity": 200000.0,
+        "initial_storage": 100000.0,
+        "reserve": 30000.0,
+        "max_release": 20000.0
+      },
+      "total_demand": {
+        "eco": 21000.0,
+        "domestic": 35000.0,
+        "irrigation": 49000.0,
+        "all": 105000.0
+      },
+      "total_supply": {
+        "eco": 21000.0,
+        "domestic": 35000.0,
+        "irrigation": 49000.0,
+        "all": 105000.0
+      },
+      "total_shortage": {
+        "eco": 0.0,
+        "domestic": 0.0,
+        "irrigation": 0.0,
+        "all": 0.0
+      },
+      "shortage_days": {
+        "eco": 0,
+        "domestic": 0,
+        "irrigation": 0,
+        "any": 0
+      },
+      "satisfaction_rate": {
+        "eco": 1.0,
+        "domestic": 1.0,
+        "irrigation": 1.0,
+        "all": 1.0
+      },
+      "water_budget": {
+        "storage_start": 100000.0,
+        "storage_end": 139000.0,
+        "inflow": 162000.0,
+        "evaporation_actual": 18000.0,
+        "supply": 105000.0,
+        "spill": 0.0,
+        "balance_residual": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "small_reservoir": {
+    "total_capacity": 120000.0,
+    "initial_storage": 80000.0,
+    "reserve": 20000.0,
+    "max_release": 15000.0
+  },
+  "large_reservoir": {
+    "total_capacity": 200000.0,
+    "initial_storage": 100000.0,
+    "reserve": 30000.0,
+    "max_release": 20000.0
+  }
+}
